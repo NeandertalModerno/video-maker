@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina teste</title>
+    <style>
+        input#texto{
+            height: 50px;
+            width: 200px;
+            font: normal 30px Arial;
+        }
+        div#resposta{
+            height: 30px;
+            width: 100px;
+            background-color: brown;
+            font: normal 30px Arial;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <br>
+    <input id = "texto" type="text">
+    <div id="resposta"></div>
+    <script>
+
+        var valor = window.document.getElementsByTagName('input')
+        var dive = window.document.querySelector('div#resposta')
+        dive.innerHTML('asydadsgauydgsauy')
+
+    </script>
 </body>
 </html>
